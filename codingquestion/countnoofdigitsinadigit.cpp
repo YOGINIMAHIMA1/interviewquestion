@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-  int n,count=0,lno
+  int n,count=0;
   cin>>n;
   while(n>0)
   {
