@@ -12,13 +12,13 @@ int main()
   while(n>0)
   {
     int lno= n % 10;
-    for(int i=1;i<=n;i++)
+    for(int i=lno;i>=1;i--)
     {
     fact=fact * i;
     }
-    n=n/10;
-    
       sum=sum+fact;
+    n=n/10;
+  }
     n=temp;
     if(n==sum)
     {
