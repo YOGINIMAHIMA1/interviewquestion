@@ -22,3 +22,5 @@ int main()
   cout<<"gcd of two number is:"<<gcd;
   return 0;
 }
+/* time complexity-O(min(a,b))
+  space complexity-O(1)
