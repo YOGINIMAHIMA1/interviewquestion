@@ -5,10 +5,17 @@ using namespace std;
 int main()
 {
   
-  int n,sum=0;
+  int n,sum=0,i=0;
   cin>>n;
   while(n>0)
   {
-    int n;
-    cin>>n;
+    
+    int lno= n % 10;
+    sum=sum+pow(2,i)*lno;
+    n=n/10;
+    i++;
+  }
+  cout<<sum;
+  return 0;
+}
     
