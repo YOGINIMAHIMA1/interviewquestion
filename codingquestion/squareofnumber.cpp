@@ -1,5 +1,5 @@
-/* time complexity-
-  space complexity-
+/* time complexity- O(1)
+  space complexity- O(1)
   */
 #include <iostream>
 using namespace std;
