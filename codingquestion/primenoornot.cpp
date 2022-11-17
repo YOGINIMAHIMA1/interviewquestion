@@ -14,11 +14,14 @@ int main()
   }
   if(count==2)
   {
-    cout<<"prime no:";
+    cout<<"prime no:"<<n;
   }
   else
   {
-    cout<<"not prime no:";
+    cout<<"not prime no:"<<n;
   }
   return 0;
 }
+/* time complexity=O(n)
+ space complexity-O(1)
+ */
