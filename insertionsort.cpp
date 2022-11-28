@@ -9,11 +9,11 @@ using namespace std;
    {
      cin>>arr[i];
    }
-   for(int i=1;i<n-1;i++)
+   for(int i=1;i<n;i++)
    {
      int value=arr[i];
      hole=i;
-     while(arr[hole-1]>value)
+     while(arr[hole]>=0&&arr[hole-1]>value)
      {
        arr[hole]=arr[hole-1];
        hole=hole-1;
@@ -26,3 +26,8 @@ using namespace std;
    }
    return 0;
  }
+/* worst time complexity- O(n^2)
+   best TC- O(n)
+ Avg TC- O(n)
+ SC- O(1)
+ */
